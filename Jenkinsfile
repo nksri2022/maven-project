@@ -3,7 +3,7 @@ node {
     git 'https://github.com/AnupamaSoma/maven-project.git'
 }
    stage('Build') {
-    sh 'mvn package'
+    sh 'mvn install'
 }
    stage('Deployment')
    {
